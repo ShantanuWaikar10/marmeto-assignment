@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="py-5 px-14 flex justify-between">
       <h1 className="font-bold text-3xl">Marmeto</h1>
-      <div>
+      <div className="hidden lg:block">
         <ol className="flex gap-10">
           <li className="cursor-pointer hover:underline">Home</li>
           <li className="cursor-pointer hover:underline">Shop</li>

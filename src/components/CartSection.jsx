@@ -20,28 +20,28 @@ const CartSection = () => {
   const [number, setNumber] = useState(1);
 
   return (
-    <div className="py-10 px-14 flex flex-col lg:flex-row gap-5">
+    <div className="py-5 lg:py-10 px-0 lg:px-14 flex flex-col lg:flex-row gap-5">
       <div className="relative flex flex-col w-full h-full bg-white bg-clip-border">
-        <table className="w-full text-left table-auto min-w-max">
+        <table className="w-full text-left table-auto max-w-[70vw] lg:max-w-[100vw]">
           <thead className="bg-pink-100">
             <tr>
-              <th className="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
-                <p className="block font-sans text-sm antialiased font-bold leading-none text-blue-gray-900 opacity-70">
+              <th className="p-4 border-b border-blue-gray-100 bg-blue-gray-50 pl-10 lg:pl-20">
+                <p className="block font-sans text-sm antialiased font-semibold">
                   Product
                 </p>
               </th>
               <th className="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
-                <p className="block font-sans text-sm antialiased font-bold leading-none text-blue-gray-900 opacity-70">
+                <p className="block font-sans text-sm antialiased font-semibold">
                   Price
                 </p>
               </th>
               <th className="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
-                <p className="block font-sans text-sm antialiased font-bold leading-none text-blue-gray-900 opacity-70">
+                <p className="block font-sans text-sm antialiased font-semibold">
                   Quantity
                 </p>
               </th>
               <th className="p-4 border-b border-blue-gray-100 bg-blue-gray-50">
-                <p className="block font-sans text-sm antialiased font-bold leading-none text-blue-gray-900 opacity-70">
+                <p className="block font-sans text-sm antialiased font-semibold">
                   Subtotal
                 </p>
               </th>
